@@ -1,12 +1,14 @@
 import Title from '../src/components/title/Title'
-
+import Subtitle, { NewSubtitle } from '../src/components/subtitle/Subtitle'
+ 
 function HomePage(){
  return(
     <div>
-       <Title />
-       <Title />
-       <Title />
-      Hello World ReactJs - NextJs
+      
+       <Title>Um titulo        </Title>
+       <Subtitle  text="Um subtitulo"/>
+       <Title>Mais um titulo   </Title>
+       <Subtitle text="Outro subtitulo"/>
     </div>
  )
    
