@@ -15,9 +15,9 @@ function HomePage(){
  return(
   
     <div>
-       <Title>Um titulo        </Title>
-       <Subtitle  text="Um subtitulo"/>
-       <Title>Mais um titulo   </Title>
+       <Title>Um titulo       </Title>
+       <Subtitle  text="Um sub"/>
+       <Title>Mais um titu  </Title>
        <Subtitle text="Outro subtitulo"/>
        <Button onClick={handleClick}
        >Botão teste</Button>
